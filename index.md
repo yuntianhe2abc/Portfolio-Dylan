@@ -16,17 +16,17 @@ AI engineer focused on building practical AI systems for engineering and manufac
 
 ## About
 
-I build AI systems that turn ambiguous, experience-heavy engineering processes into structured workflows that can be reviewed, extended, and operated. My recent work focuses on manufacturing and failure-analysis scenarios where the goal is not only to produce helpful text, but to create reliable intermediate assets, executable logic, and traceable workflow outcomes.
+I’m an AI Engineer with hands-on experience building Generative AI applications, RAG systems, and agentic workflows for real engineering use cases. My work focuses on turning technical documents, internal knowledge, and business workflows into practical AI systems for quality control and automation.
 
 ## Projects
 
-### CFX Engineering Rule Validation System
+### AI Device Behavior Monitoring System
 
 A rule-to-execution system for manufacturing event-flow validation. The project transforms specification-derived context and reviewed engineering rules into executable Python validators, with checks, test generation, failure diagnosis, and gated saving.
 
 [Read the CFX project page](projects/CFX.md)
 
-### RMA Intelligent Analysis and FA Report Automation System
+### AI Failure Analysis Assistant
 
 A staged AI workflow system for RMA and failure-analysis engineers. The project supports case intake, guided precheck, historical-case retrieval, fault confirmation, and automated FA report generation.
 
