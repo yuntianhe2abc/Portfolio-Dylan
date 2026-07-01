@@ -16,7 +16,7 @@ title: CFX Engineering Rule Validation System
 - [My Role](#my-role)
 - [Business Value](#business-value)
 - [Tradeoffs and Limitations](#tradeoffs-and-limitations)
-- [Interview Summary](#interview-summary)
+- [Project Summary](#project-summary)
 - [Back to Portfolio](#back-to-portfolio)
 
 ## Overview
@@ -165,7 +165,7 @@ Known limitations:
 - upstream rule extraction quality directly affects downstream validator quality
 - grounding reduces semantic drift but does not eliminate it completely
 
-## Interview Summary
+## Project Summary
 
 CFX is an engineering rule validation system for manufacturing event flows. The hardest part was not retrieval, but converting scattered specification knowledge and reviewed rules into executable, testable, reusable validator assets.
 

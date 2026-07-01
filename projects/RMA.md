@@ -16,7 +16,7 @@ title: RMA Intelligent Analysis and FA Report Automation System
 - [My Role](#my-role)
 - [Business Value](#business-value)
 - [Tradeoffs and Limitations](#tradeoffs-and-limitations)
-- [Interview Summary](#interview-summary)
+- [Project Summary](#project-summary)
 - [Back to Portfolio](#back-to-portfolio)
 
 ## Overview
@@ -169,7 +169,7 @@ Known limitations:
 - the current system would benefit from stronger formal evaluation and node-level observability
 - confidence and escalation mechanisms could be made more explicit
 
-## Interview Summary
+## Project Summary
 
 RMA is an intelligent workflow system for RMA and FA engineers. It helps move from incomplete customer complaints to structured case intake, guided precheck, historical-case retrieval, fault confirmation, and report generation.
 
