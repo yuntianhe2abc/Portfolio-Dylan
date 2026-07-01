@@ -44,5 +44,5 @@ A staged AI workflow system for RMA and failure-analysis engineers. The project 
 
 | Project | Domain | Core Contribution |
 | --- | --- | --- |
-| [CFX Engineering Rule Validation System](projects/CFX.md) | Manufacturing validation | Converted reviewed rules and specification context into executable, tested validator assets. |
-| [RMA Intelligent Analysis and FA Report Automation System](projects/RMA.md) | Failure analysis and RMA | Built a staged workflow for case intake, precheck, deep search, fault confirmation, and report generation. |
+| [ AI Device Behavior Monitoring System (CFX)](projects/CFX.md) | Manufacturing validation | Converted reviewed rules and specification context into executable, tested validator assets. |
+| [AI Failure Analysis Assistant(RMA)](projects/RMA.md) | Failure analysis and RMA | Built a staged workflow for case intake, precheck, deep search, fault confirmation, and report generation. |
