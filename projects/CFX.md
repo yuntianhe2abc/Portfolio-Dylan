@@ -73,23 +73,21 @@ This structure made the workflow slower than direct prompt-to-code generation, b
 
 The system can be understood as four connected layers.
 
-### Knowledge Extraction and Research
+### Research Agent
+It performs multi-iterations search/retrieve for a given CFX topic, for example: WorkStageStarted.
+At each iteration, the agent starts with a topic, retrieves relevant chunks from the knowledge base, analyzes the results, and checks what is still missing or unclear. Then it keeps repeating that loop until it has enough information or reaches a predefined stopping condition.
 
-This layer extracts usable engineering context from specification documents and related materials.
+It also contains 2 stages for building a more strong and complete context. Because CFX topics are co-related, the context for a single topic is incomplete.
 
-Message-level research focuses on:
+Stage 1 Input = An initiial topic, e.g. WorkStageStarted
+Since we have extracted knowledge of 
+TOPIC 1: WorkStageStarted
+TOPIC 2: WorkStagePaused
+TOPIC 3: UnitsDeparted
 
-- message meaning
-- field definitions
-- required fields
-- local constraints
+Stage 2 Input = Compress(TOPIC 1 Knowledge + TOPIC 2 Knowledge + TOPIC 3 Knowledge )
+We run research on the cross event knowledge and try to find some extra knowledge missed in the single topic research.
 
-Cross-message and cross-event research focuses on:
-
-- prerequisites
-- ordering relationships
-- flow dependencies
-- process conditions
 
 ### Rule Understanding and Consolidation
 
